@@ -1,0 +1,21 @@
+
+###
+
+▲ Network Status - 201 : server successfully processed the request, new resource has been cretaed and ready for use. 
+
+
+▲   process.env  - global variable of node.js
+               a global object, an instance of EventEmitter, can be accessed from anywhere.
+▲   require('dotenv').config() - loads the environment variables defined in the . env file into process
+
+▲   nodemon - a command-line tool that speedy development of Node. js applications.
+              It monitors your project directory and automatically restarts your node application when it detects any changes.
+
+▲   mongoose.connect() returns a promise that needs to be resolved.
+▲   business logic and database operation is performed in the controller section
+
+    app.use(bodyParser.json()) -- what ever is send by the server to the client, is allowed to be use by the middleware (req.body)
+
+    $set : operator to replace the value of a field with the specified value
+
+
